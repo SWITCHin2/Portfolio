@@ -1,0 +1,505 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.photo{
+    margin: 5px;
+    height: 300px;
+    border: solid;
+    border-color: black;
+    border-width: 6px;
+    border-radius: 180%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #11bae481;
+    position: relative;
+    top: 150px;
+    left: 140px;
+    border-top: 10px;
+    border-right: 0px;
+    padding-top: 10px;
+}
+.top{
+    display: inline-block;
+    background-color: #11bae481;
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+    position: relative;
+    top: 20px;
+    left: 240px;
+    height: 150px;
+    width: 450px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    border: solid;
+    border-width: 10px;
+    border-radius: 20%;
+    border-color: #11bae481;
+    border-top: 0px;
+    border-left: 5px;
+}
+
+.intro{
+    background-color: #434242;
+    height: 180px;
+    width: 660px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    bottom: 140px;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 10px;
+    border-radius: 10%;
+    padding: 15px;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.self-intro{
+    margin-top: 0px;
+    font-size: 18px;
+    padding: 5PX;
+    position: relative;
+    top: 5px;
+}
+
+.skill{
+    height: 400px;
+    width: 300px;
+    color: white;
+    background-color: #434242;
+    position: relative;
+    left: 150px;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 15px;
+    display: inline-block;
+    border-radius: 10%; 
+}
+.blog{
+    height: 400px;
+    width: 300px;
+    color: white;
+    background-color: #42434366;
+    position: relative;
+    left: 850px;
+    bottom: 480px;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 15px;
+    display: inline-block;  
+    border-radius: 10%;
+}
+.hobby1{
+    object-fit: contain;
+    overflow: hidden;
+}
+.cppPhoto{
+    height: 60px;
+    width: 55px;
+    position:relative;
+    left: 120px;
+    display: inline-block;
+}
+.javaPhoto{
+    padding-top: 5px;
+    height: 70px;
+    width: 80px;
+    position:relative;
+    left: 105px;
+}
+.htmlPhoto{
+    padding-top: 5px;
+    height: 70px;
+    width: 80px;
+    position:relative;
+    left: 105px;
+}
+.cssPhoto{
+    padding-top: 10px;
+    height: 60px;
+    width: 50px;
+    position:relative;
+    left: 120px;
+}
+.sql{
+  height: 65px;
+  width: 120px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.Stext{
+    position: relative;
+    left: 100px;
+    margin-bottom: 0;
+}
+
+.academic{
+    height: 400px;
+    width: 300px;
+    color: white;
+    background-color: #434242;
+    position: relative;
+    bottom: 35px;
+    left: 150px;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 15px;
+    display: inline-block;
+    border-radius: 10%;
+}
+.academic:hover{
+    border: solid;
+    border-width: 15px;
+    border-color: #11bae481;
+}
+.schoolPhoto{
+    display: inline-block;
+    padding-left: 0px;
+    height: 50px;
+    width: 50px;
+    position:relative;
+    left: 5px;
+    top: 15px;
+    bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.schoolName{
+    display: inline-block;
+    bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+.perc{
+    position:relative;
+    bottom: 15px;
+    border-top: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+.collegeName{
+    padding-bottom: 20px;
+    display: inline-block;
+    bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.Cperc{
+    position:relative;
+    bottom: 40px;
+    border-top: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+.btechC{
+    padding-left: 10px;
+    position: relative;
+    bottom: 30px;
+}
+.Bperc{
+    position:relative;
+    bottom: 50px;
+    border-top: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+.Atext{
+    position: relative;
+    left: 80px;
+    vertical-align: middle;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.internship{
+    display: inline;
+    height: 400px;
+    width: 300px;
+    color: white;
+    background-color: #434242;
+    position: relative;
+    left: 225px;
+    bottom: 55px;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 15px;
+    display: inline-block;
+    border-radius: 10%;
+    border-width: 15px;
+}
+.opengenus{
+    height: 60px;
+    width: 55px;
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    padding-left: 10px;
+    border-radius: 20%;
+}
+.intern{
+    
+    position: relative;
+    padding-left: 10px;
+
+}
+.Itext{
+    position: relative;
+    left: 90px;
+}
+.aIntern{
+    padding-left: 10px;
+}
+.pastExp{
+    display: inline;
+    height: 400px;
+    width: 300px;
+    color: white;
+    background-color: #434242;
+    position: relative;
+    left: 300px;
+    bottom: 35px;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 15px;
+    display: inline-block;
+    border-radius: 10%;
+    border-width: 15px;
+}
+.practice{
+    text-align: center;
+}
+.gfg{
+    position: relative;
+    left: 45px;
+    border-right: 0;
+    padding-right: 0;
+    display: inline;
+}
+.cstudio{
+    position: relative;
+    left: 95px;
+    top: 5px;
+    border-right: 0;
+    padding-right: 0;
+    display: inline;
+}
+.leet{
+    position: relative;
+    left: 95px;
+    top: 45px;
+    border-right: 0;
+    padding-right: 0;
+    display: inline;
+}
+.links{
+    background-color: #434242;
+    height: 180px;
+    width: 1090px;
+    color: white;
+    position: relative;
+    left: 165px;
+    bottom: 100px;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 10px;
+    border-radius: 20%;
+    padding: 15px;
+    margin-top: 10px;
+}
+.contact{
+    height: 30px;
+    width: 120px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+    background-color: white;
+    border: solid;
+    border-color: #11bae481;
+    border-width: 5px;
+    border-radius: 10%;
+    margin-top: 0px;
+}
+.publi{
+    position: relative;
+    top: 0;
+    margin-bottom: 0px;
+    border-bottom: 3px;
+}
+.loading{
+    display: inline;
+    position: relative;
+    height: 40%;
+    width: 13%;
+    left: 350px;
+    bottom: 1110px;
+}
+.beep{
+    display: inline;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+.animate-text {
+    display: inline-block;
+    position: relative;
+    left: 170px;
+    bottom: 45px;
+    font-size: 34px;
+    animation: textAnimation 2s infinite;
+  }
+
+  @keyframes textAnimation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .websq {
+    position: relative;
+    bottom: 30px;
+    left: 450px;
+    width: 150px;
+    height: 75px;
+    border: none;
+    border-radius: 30%;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    animation: rgbAnimation 3s infinite;
+  }
+
+  @keyframes rgbAnimation {
+    0% {
+      box-shadow: 0 0 0 10px red;
+    }
+    33% {
+      box-shadow: 0 0 0 10px green;
+    }
+    66% {
+      box-shadow: 0 0 0 10px blue;
+    }
+    100% {
+      box-shadow: 0 0 0 10px red;
+    }
+  }
+  .loading{
+    position: relative;
+    top: 10%
+  }
+  footer {
+    background-color: #434242;
+    padding: 10px;
+    padding-bottom: 0px;
+    overflow-y: hidden;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-emphasis-color: white;
+    text-emphasis-color: white;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+  }
+  .PICpdf{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .PICpdf:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .PICpdf:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .PICpdf:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .PICpdf:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .PIC{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .SIT{
+    margin: 0px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .IIT{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  .res{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    top: 15px;
+  }
+  .art{
+    color: blue;
+    text-decoration: none;
+  }
+  .art:hover{
+    color: green;
+    text-decoration: underline;
+  }

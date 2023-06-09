@@ -1,0 +1,12 @@
+function change(x){
+x.style.background = "green";
+}
+
+button{
+font-size: 20px;
+margin: 200px;
+background: red;
+}
+
+
+ <button onclick="change(this)">click me</button>
